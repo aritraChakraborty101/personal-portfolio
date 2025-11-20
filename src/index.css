@@ -3,3 +3,9 @@
 
 /* Tell Tailwind to apply dark variants when the '.dark' class is present */
 @custom-variant dark (&:where(.dark, .dark *));
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
